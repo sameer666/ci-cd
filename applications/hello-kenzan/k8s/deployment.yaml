@@ -14,7 +14,7 @@ spec:
   type: NodePort
 
 ---
-apiVersion: apps/v122
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-kenzan
