@@ -22,6 +22,7 @@ node {
 
     stage "Deploy"
 
+        sh "kubectl delete deployment hello-kenzan"
         sh "kubectl apply -f applications/hello-kenzan/k8s/deployment.yaml"
 
 }
